@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="../bootstrap-5.3.0-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="../bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> -->
+
+    <link href="./css/index.css" rel="stylesheet">
+    <link href="./css/index-mobile.css" rel="stylesheet">
+    <title>Webdev Challenge</title>
+</head>
+<body>
+    <div class="main-container">
+        <main>
+            <!--nav bar. folds-->
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
+                <a class="navbar-name" href="#">Johnathan Specter</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                    <ul class="navbar-nav justify-content-center">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Articles</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Chats</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Awards</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                    <button class="get-in-touch-button">Get in touch</button>
+                  </div>
+                  
+            </nav>
+
+            <!-- Info paragraph is one container -->
+            <div id="info-container" class="d-flex">
+              <div class="color-white">
+                <h1>Helping companies build better, scalable software.</h1>
+                <div class="d-flex">
+                  <p class="s-subtext">
+                    Award-winning wed developer and author, with over 15+ years of working experience
+                    with Fortune 500 companies like Apple, Google, Facebook, and more.
+                  </p>
+                  <div class="intro-text-counter-balance"></div>
+                </div>
+                
+              </div>
+              <div class="intro-text-counter-balance"></div>
+            </div>
+            
+
+            <!-- Icons are a separate container -->
+
+            <div id="logo-container">
+              <img src="../assets/Logos/Walmart.svg" class="logos">
+              <img src="../assets/Logos/JP Morgan.svg" class="logos">
+              <img src="../assets/Logos/Visa.svg" class="logos">
+              <img src="../assets/Logos/Tinder.svg" class="logos">
+              <img src="../assets/Logos/Samsung.svg" class="logos">
+              <img src="../assets/Logos/Verizon.svg" class="logos">
+            </div>
+
+            <!-- The two camps stack on each other when mobile. when desktop side by side-->
+            <div id="example-websites">
+              <div class="website-card">
+                <img src="../assets/Spense.png">
+                <div class="website-card-body">
+                  <h3 class="website-card-title">Spense.com <span>&#8594;</span></h4> 
+                  <p class="s-subtext website-card-body-text">Rethinking the way writers get paid, an open-source platform
+                    designed to help writers focus more on writing, and less on when
+                    and how they'll get paid. Project in collaboration with Codewell.cc
+                  </p>
+                </div>
+                
+              </div>
+              <div class="website-card">
+                <img src="../assets/YelpCamp.png">
+                <div class="website-card-body">
+                  <h3 class="website-card-title">YelpCamp.com <span>&#8594;</span></h4> 
+                  <p class="s-subtext website-card-body-text">Allowing backpack travelers to perfectly paln their trip
+                    through an open-soucre platform similar to TripAdvisor. With over
+                    1m MAU, YelpCamp has been the crowd's favorite in 2021.
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+
+            <!-- the two ending notes are in separate container -->
+            <div id="pitch">
+              <div>
+                <h3>A co-founder at one of the world's largest communities.</h4>
+                <p class="s-subtext">
+                  The combined experience I have working at the top Fortune
+                  500 companies has allowed me to developer a skillset that helps
+                  me in not just development, but in every aspect of any business.
+                </p>
+                <p class="s-subtext">
+                  I'm proud to announce that I am now working at one of the world's largest
+                  companies teaching young minds about how to sell yourself as a developer
+                  and open them to a whole new world of opportunities.
+                </p>
+              </div>
+              <div>
+                <p class="s-subtext">
+                  As a developer, you have everything available to you and all that's holding you back is yourself.
+                </p>
+                <p class="s-subtext">
+                  A quote I live by perfectly illustrates what I mean.
+                </p>
+                <p class="s-subtext">
+                  "How big would you dream, if you <b>knew</b> you wouldn't fail?"
+                  You've already gone through the hardest parts being a developer, it's time to elevate
+                  your skills and become a leader in something you're passionate about.
+                </p>
+                <p class="s-subtext">
+                  I'm happy to chat over coffee some time about how I can help your company.
+                </p>
+              </div>
+            </div>
+
+            <!-- Contact info footer -->
+            <div id="footer-contact">
+              <div id="footer-text">
+                <h3>Interested in working with me?</h3>
+                <p class="s-subtext">
+                  I'm active on all social media platforms listed below, but you
+                  can also me an email and I will get back to you within 24-48
+                  hours
+                </p>
+                <button class="get-in-touch-button">Get in touch</button>
+              </div>
+              <div class="footer-contact-counterbalance"></div>
+            </div>
+
+            <!-- Footer -->
+            <footer id="very-bottom">
+              <span>Johnathan Specter</span>
+              <div>
+                <a><img src="../assets/Social Icons/Twitter.svg"></a>
+                <a><img src="../assets/Social Icons/LinkedIn.svg"></a>
+                <a><img src="../assets/Social Icons/Github.svg"></a>
+              </div>
+            </footer>
+            
+        </main>
+    </div>
+</body>
+</html>

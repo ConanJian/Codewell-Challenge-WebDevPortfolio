@@ -1,0 +1,121 @@
+body {
+    color:rgb(255, 255, 255);
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+}
+
+.main-container {
+    box-sizing: border-box;
+}
+
+#navbar {
+    padding: 0 5rem;
+}
+
+.get-in-touch-button {
+    padding: .5rem 1rem;
+    background-color: #ffd800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-item {
+    padding: 0 .5rem;
+}
+
+.navbar-name {
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.color-white {
+    color: white;
+}
+
+.s-subtext {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+}
+
+.intro-text-counter-balance {
+    flex: 0 0 33%;
+}
+
+#info-container {
+    padding: 0 5rem;
+}
+
+#logo-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 4rem;
+}
+.logos {
+    padding: 1rem;
+}
+
+#example-websites {
+    display: flex;
+    margin-top: .5rem;
+    padding: 0 4rem;
+}
+
+.website-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    max-width: 50%;
+}
+
+.website-card-body {
+    padding: 1rem 0;
+}
+
+.website-card-title {
+    color: rgb(255, 255, 255);
+}
+
+.website-card-body-text {
+    font-size: 20px;
+}
+
+#pitch {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.071);
+    padding: 1rem 5rem;
+}
+
+#pitch > div:first-child {
+    padding-right: 1rem;
+}
+
+#pitch > div:nth-child(2) {
+    padding-left: 1rem;
+}
+
+#pitch p {
+    font-size: 18px;
+}
+
+#footer-contact {
+    display: flex;
+    padding: 1rem 5rem;
+}
+
+#footer-text {
+    padding-right: 1rem;
+}
+
+.footer-contact-counterbalance{
+    flex: 0 0 50%;
+    padding-left: 1rem;
+}
+
+
+#very-bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.071);
+    padding: 1rem 5rem;
+}
